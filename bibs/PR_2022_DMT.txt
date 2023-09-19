@@ -1,0 +1,9 @@
+@article{feng2022dmt,
+  title={Dmt: Dynamic mutual training for semi-supervised learning},
+  author={Feng, Zhengyang and Zhou, Qianyu and Gu, Qiqi and Tan, Xin and Cheng, Guangliang and Lu, Xuequan and Shi, Jianping and Ma, Lizhuang},
+  journal={Pattern Recognition},
+  volume={130},
+  pages={108777},
+  year={2022},
+  publisher={Elsevier}
+}

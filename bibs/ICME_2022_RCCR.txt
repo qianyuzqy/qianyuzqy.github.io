@@ -1,0 +1,8 @@
+@inproceedings{zhou2022domain,
+  title={Domain adaptive semantic segmentation via regional contrastive consistency regularization},
+  author={Zhou, Qianyu and Zhuang, Chuyun and Yi, Ran and Lu, Xuequan and Ma, Lizhuang},
+  booktitle={2022 IEEE International Conference on Multimedia and Expo (ICME)},
+  pages={01--06},
+  year={2022},
+  organization={IEEE}
+}

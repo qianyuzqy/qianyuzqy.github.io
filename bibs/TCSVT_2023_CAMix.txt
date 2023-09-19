@@ -1,0 +1,10 @@
+@article{zhou2022context,
+  title={Context-aware mixup for domain adaptive semantic segmentation},
+  author={Zhou, Qianyu and Feng, Zhengyang and Gu, Qiqi and Pang, Jiangmiao and Cheng, Guangliang and Lu, Xuequan and Shi, Jianping and Ma, Lizhuang},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  volume={33},
+  number={2},
+  pages={804--817},
+  year={2022},
+  publisher={IEEE}
+}

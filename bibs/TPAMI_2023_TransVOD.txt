@@ -1,0 +1,10 @@
+@article{zhou2022transvod,
+  title={TransVOD: end-to-end video object detection with spatial-temporal transformers},
+  author={Zhou, Qianyu and Li, Xiangtai and He, Lu and Yang, Yibo and Cheng, Guangliang and Tong, Yunhai and Ma, Lizhuang and Tao, Dacheng},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2023},
+  volume={45},
+  number={6},
+  pages={7853-7869},
+  doi={10.1109/TPAMI.2022.3223955}
+}

@@ -1,0 +1,7 @@
+@inproceedings{zhou2022adaptive,
+  title={Adaptive mixture of experts learning for generalizable face anti-spoofing},
+  author={Zhou, Qianyu and Zhang, Ke-Yue and Yao, Taiping and Yi, Ran and Ding, Shouhong and Ma, Lizhuang},
+  booktitle={Proceedings of the 30th ACM International Conference on Multimedia (ACM MM)},
+  pages={6009--6018},
+  year={2022}
+}

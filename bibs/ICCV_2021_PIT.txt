@@ -1,0 +1,7 @@
+@inproceedings{gu2021pit,
+  title={Pit: Position-invariant transform for cross-fov domain adaptation},
+  author={Gu, Qiqi and Zhou, Qianyu and Xu, Minghao and Feng, Zhengyang and Cheng, Guangliang and Lu, Xuequan and Shi, Jianping and Ma, Lizhuang},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages={8761--8770},
+  year={2021}
+}

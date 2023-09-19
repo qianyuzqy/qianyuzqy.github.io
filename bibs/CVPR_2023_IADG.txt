@@ -1,0 +1,7 @@
+@inproceedings{zhou2023instance,
+  title={Instance-Aware Domain Generalization for Face Anti-Spoofing},
+  author={Zhou, Qianyu and Zhang, Ke-Yue and Yao, Taiping and Lu, Xuequan and Yi, Ran and Ding, Shouhong and Ma, Lizhuang},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={20453--20463},
+  year={2023}
+}

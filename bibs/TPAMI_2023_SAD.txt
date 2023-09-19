@@ -1,0 +1,10 @@
+@article{zhou2023self,
+  title={Self-adversarial disentangling for specific domain adaptation},
+  author={Zhou, Qianyu and Gu, Qiqi and Pang, Jiangmiao and Lu, Xuequan and Ma, Lizhuang},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},  
+  year={2023},
+  volume={45},
+  number={7},
+  pages={8954-8968},
+  doi={10.1109/TPAMI.2023.3238727}
+}

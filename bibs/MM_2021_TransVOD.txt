@@ -1,0 +1,7 @@
+@inproceedings{he2021end,
+  title={End-to-end video object detection with spatial-temporal transformers},
+  author={He, Lu and Zhou, Qianyu and Li, Xiangtai and Niu, Li and Cheng, Guangliang and Li, Xiao and Liu, Wenxuan and Tong, Yunhai and Ma, Lizhuang and Zhang, Liqing},
+  booktitle={Proceedings of the 29th ACM International Conference on Multimedia (ACM MM)},
+  pages={1507--1516},
+  year={2021}
+}
