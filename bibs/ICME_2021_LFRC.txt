@@ -1,7 +1,7 @@
 @inproceedings{guo2021label,
   title={Label-free regional consistency for image-to-image translation},
   author={Guo, Shaohua and Zhou, Qianyu and Zhou, Ye and Gu, Qiqi and Tang, Junshu and Feng, Zhengyang and Ma, Lizhuang},
-  booktitle={2021 IEEE International Conference on Multimedia and Expo (ICME)},
+  booktitle={IEEE International Conference on Multimedia and Expo (ICME)},
   pages={1--6},
   year={2021},
   organization={IEEE}

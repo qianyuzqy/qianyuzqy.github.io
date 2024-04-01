@@ -1,7 +1,7 @@
 @inproceedings{xu2021semi,
   title={Semi-supervised 3d object detection via adaptive pseudo-labeling},
   author={Xu, Hongyi and Liu, Fengqi and Zhou, Qianyu and Hao, Jinkun and Cao, Zhijie and Feng, Zhengyang and Ma, Lizhuang},
-  booktitle={2021 IEEE International Conference on Image Processing (ICIP)},
+  booktitle={IEEE International Conference on Image Processing (ICIP)},
   pages={3183--3187},
   year={2021},
   organization={IEEE}

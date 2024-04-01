@@ -1,0 +1,6 @@
+@article{long2023diverse,
+  title={Diverse Target and Contribution Scheduling for Domain Generalization},
+  author={Long, Shaocong and Zhou, Qianyu and Ying, Chenhao and Ma, Lizhuang  and Luo, Yuan},
+  journal={arXiv preprint arXiv:2309.16460},
+  year={2023}
+}

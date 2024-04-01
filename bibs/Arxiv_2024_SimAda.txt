@@ -1,0 +1,6 @@
+@article{song2024simada,
+  title={SimAda: A Simple Unified Framework for Adapting Segment Anything Model in Underperformed Scenes},
+  author={Song, Yiran and Zhou, Qianyu and Lu, Xuequan and Shao, Zhiwen and Ma, Lizhuang},
+  journal={arXiv preprint arXiv:2401.17803},
+  year={2024}
+}

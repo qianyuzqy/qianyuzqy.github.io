@@ -1,7 +1,7 @@
 @article{zhou2022uncertainty,
   title = {Uncertainty-aware consistency regularization for cross-domain semantic segmentation},
   author={Zhou, Qianyu and Feng, Zhengyang and Gu, Qiqi and Cheng, Guangliang and Lu, Xuequan and Shi, Jianping and Ma, Lizhuang},
-  journal={Computer Vision and Image Understanding},
+  journal={Computer Vision and Image Understanding (CVIU)},
   volume={221},
   pages={103448},
   year={2022},

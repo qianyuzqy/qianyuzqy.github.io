@@ -1,0 +1,6 @@
+@inproceedings{zhou2024test,
+  title={Test-Time Domain Generalization for Face Anti-Spoofing},
+  author={Zhou, Qianyu and Zhang, Ke-Yue and Yao, Taiping and Lu, Xuequan and Ding, Shouhong and Ma, Lizhuang},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2024}
+}

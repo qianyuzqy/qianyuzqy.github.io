@@ -1,0 +1,6 @@
+@article{liu2024cloud,
+  title={CloudMix: Dual Mixup Consistency for Unpaired Point Cloud Completion},
+  author={Liu, Fengqi and Jingyu Gong and Zhou, Qianyu and Lu, Xuequan and Yi, Ran and Xie, Yuan and Ma, Lizhuang},
+  journal={IEEE Transactions on Visualization and Computer Graphics (TVCG)},
+  year={2024},
+}
