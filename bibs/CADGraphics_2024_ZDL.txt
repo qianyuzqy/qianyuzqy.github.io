@@ -1,0 +1,8 @@
+@inproceedings{yang2023zdl,
+  title={ZDL: Zero-Shot Degradation Factor Learning for Robust and Efficient Image Enhancement},
+  author={Yang, Hao and Sun, Haijia and Zhou, Qianyu and Yi, Ran and Ma, Lizhuang},
+  booktitle={International Conference on Computer-Aided Design and Computer Graphics (CAD/Graphics)},
+  pages={266--280},
+  year={2023},
+  organization={Springer}
+}
