@@ -1,0 +1,6 @@
+@article{zhou2024ppr,
+  title={Rethinking Impersonation and Dodging Attacks on Face Recognition Systems},
+  author={Zhou, Fengfan and Zhou, Qianyu and Yin, Bangjie and Zheng, Hui and Lu, Xuequan and Ma, Lizhuang and Ling, Heifei},
+  journal={arXiv preprint arXiv:2401.08903},
+  year={2024}
+}
