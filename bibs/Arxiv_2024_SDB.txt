@@ -1,0 +1,6 @@
+@article{zhou2024adv2,
+  title={Adversarial Attacks on Both Face Recognition and Face Anti-spoofing Models},
+  author={Zhou, Fengfan and Zhou, Qianyu and Li, Xiangtai and Lu, Xuequan and Ma, Lizhuang and Ling, Heifei},
+  journal={arXiv preprint arXiv:2405.16940},
+  year={2024}
+}
