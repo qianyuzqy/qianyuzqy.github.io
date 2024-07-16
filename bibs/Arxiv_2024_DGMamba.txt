@@ -1,6 +1,0 @@
-@article{long2024dgmamba,
-  title={DGMamba: Domain Generalization via Generalized State Space Model},
-  author={Long, Shaocong and Zhou, Qianyu and Li, Xiangtai and Lu, Xuequan and Ying, Chenhao and Luo, Yuan and Ma, Lizhuang and Yan, Shuicheng},
-  journal={arXiv preprint arXiv:2404.07794},
-  year={2024}
-}

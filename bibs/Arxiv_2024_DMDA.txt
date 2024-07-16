@@ -1,6 +1,0 @@
-@article{long2023rethink,
-  title={Rethinking Domain Generalization: Discriminability and Generalizability},
-  author={Long, Shaocong and Zhou, Qianyu and Ying, Chenhao and Ma, Lizhuang  and Luo, Yuan},
-  journal={arXiv preprint arXiv:2309.16483},
-  year={2023}
-}
