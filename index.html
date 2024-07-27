@@ -244,19 +244,21 @@ Currently, I am working on (i) open-world perception and adaptation, (ii) out-of
 </ul>
 </div>
 
-<h2><font face="Arial"> Selected Publications </font></h2>
+<h2><font face="Arial"> Selected Publications
+    (<a href="" id="select0" onclick="showPubs(0); return false;">show selected</a> /
+     <a href="" id="select1" onclick="showPubs(1); return false;">show all</a>)
+</font></h2>
 <div id="publication">
 <!-- <a name="Publications" /> -->
+
 <p><font face="Arial"><a href="https://scholar.google.com/citations?hl=en&pli=1&user=KHg04fkAAAAJ">[Google Scholar]</a> (* indicates joint first author, and † indicates corresponding author) </font></p> 
 
-<p>
-For the full publication by year, please refer to my <a href="pub.html">Full publication list</a></p>
 
 <p>
 Summay (18 papers as First Author): TPAMI x2, CVPR x3, ICCV x1, ECCV x2, ACM MM x4, AAAI x1, TCSVT/PR x3, others x2;</p>
-	
-<ul>
 
+<script id="pubs_selected">	
+<ul>
 	<li> <p style="margin-left: 0px; line-height: 150%; margin-top: 10px; margin-bottom: 10px;"><font face="Arial" size="3"><meta charset="utf-8">
             TransVOD: End-to-End Video Object Detection with Spatial-Temporal Transformers <br> 
          <i>   <b>Qianyu Zhou</b>, Xiangtai Li, Lu He, Yibo Yang, Guangliang Cheng, Yunhai Tong, Lizhuang Ma, Dacheng Tao. </i><br> 
@@ -521,6 +523,16 @@ Summay (18 papers as First Author): TPAMI x2, CVPR x3, ICCV x1, ECCV x2, ACM MM 
  -->
 </ul>
 </div>
+</script>
+
+<script id="pubs_by_topic">
+
+
+</script>
+
+<script>showPubs(0);</script>
+<script>var scroll = new SmoothScroll('a[href*="#"]', {speed: 1000});</script>
+
 
 <h2><font face="Arial"> Education </font></h2>
 <div id="education">
