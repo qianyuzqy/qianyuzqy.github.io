@@ -1,0 +1,6 @@
+@article{song2024source,
+  title={Source-Free Test-Time Adaptation For Online Surface-Defect Detection},
+  author={Song, Yiran and Zhou, Qianyu and Ma, Lizhuang},
+  journal={arXiv preprint arXiv:2408.09494},
+  year={2024}
+}

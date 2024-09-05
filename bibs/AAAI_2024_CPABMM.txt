@@ -1,0 +1,9 @@
+@inproceedings{wang2024continuous,
+  title={Continuous Piecewise-Affine Based Motion Model for Image Animation},
+  author={Wang, Hexiang and Liu, Fengqi and Zhou, Qianyu and Yi, Ran and Tan, Xin and Ma, Lizhuang},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={6},
+  pages={5427--5435},
+  year={2024}
+}

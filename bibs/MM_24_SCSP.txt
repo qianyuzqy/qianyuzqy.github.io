@@ -1,0 +1,6 @@
+@inproceedings{liu2024emphasizing,
+  title={Emphasizing Semantic Consistency of Salient Posture for Speech-Driven Gesture Generation},
+  author={Liu, Fengqi and Wang, Hexiang and Gong, Jingyu and Yi, Ran and Zhou, Qianyu and Lu, Xuequan and Lu, Jiangbo and Ma, Lizhuang},
+  booktitle={ACM Multimedia 2024},
+  year={2024}
+}
