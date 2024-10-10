@@ -2,7 +2,7 @@
   title={DG-PIC: Domain Generalized Point-In-Context Learning for Point Cloud Understanding},
   author={Jiang, Jincen and Zhou, Qianyu and Li, Yuhang and Lu, Xuequan and Wang, Meili and Ma, Lizhuang and Chang, Jian and Zhang, Jian Jun},
   booktitle={European Conference on Computer Vision (ECCV)},
-  pages={},
+  pages={455--474},
   year={2024},
   organization={Springer}
 }

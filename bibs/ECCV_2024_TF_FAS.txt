@@ -1,8 +1,8 @@
-@inproceedings{jiang2024dgpic,
-  title={DG-PIC: Domain Generalized Point-In-Context Learning for Point Cloud Understanding},
-  author={Jiang, Jincen and Zhou, Qianyu and Li, Yuhang and Lu, Xuequan and Wang, Meili and Ma, Lizhuang and Chang, Jian and Zhang, Jian Jun},
+@inproceedings{wang2024tf,
+  title={Tf-fas: Twofoldelement fine-grained semantic guidance for generalizable face anti-spoofing},
+  author={Wang, X and Zhang, Ke-Yue and Yao, Taiping and Zhou, Qianyu and Ding, Shouhong and Dai, Pingyang and Ji, Rongrong},
   booktitle={European Conference on Computer Vision (ECCV)},
-  pages={},
+  pages={148--168},
   year={2024},
   organization={Springer}
 }
