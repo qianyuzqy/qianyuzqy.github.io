@@ -1,0 +1,6 @@
+@article{zhou2024enhancing,
+  title={Enhancing the Transferability of Adversarial Attacks on Face Recognition with Diverse Parameters Augmentation},
+  author={Zhou, Fengfan and Yin, Bangjie and Ling, Hefei and Zhou, Qianyu and Wang, Wenxuan},
+  journal={arXiv preprint arXiv:2411.15555},
+  year={2024}
+}

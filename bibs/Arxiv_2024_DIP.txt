@@ -1,0 +1,6 @@
+@article{gong2024diffusion,
+  title={Diffusion Implicit Policy for Unpaired Scene-aware Motion Synthesis},
+  author={Gong, Jingyu and Zhang, Chong and Liu, Fengqi and Fan, Ke and Zhou, Qianyu and Tan, Xin and Zhang, Zhizhong and Xie, Yuan and Ma, Lizhuang},
+  journal={arXiv preprint arXiv:2412.02261},
+  year={2024}
+}
