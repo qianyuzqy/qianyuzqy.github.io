@@ -35,23 +35,6 @@
 }
 
 </script>
-
-
-<script>
-   function showPubs(id) {
-  if (id == 0) {
-    document.getElementById('pubs').innerHTML = document.getElementById('pubs_selected').innerHTML;
-    document.getElementById('select2').style = 'text-decoration:underline;color:#000000';
-    document.getElementById('select3').style = '';
-  } else {
-    document.getElementById('pubs').innerHTML = document.getElementById('pubs_by_topic').innerHTML;
-    document.getElementById('select2').style = 'text-decoration:underline;color:#000000';
-    document.getElementById('select3').style = '';
-  }
-}
-
-</script>
-
 </head>
 <body>
 
@@ -72,21 +55,21 @@
 
 <div id="layout-content" style="margin-top:25px">
 <table>
-	<tbody>
-		<tr>
-			<td width="670">
-				<div id="toptitle">					
-					<h1><font face="Arial"> Qianyu Zhou </font></h1>  <h1><font face="楷体"> 周千寓 </font></h1>
-				</div>
+    <tbody>
+        <tr>
+            <td width="670">
+                <div id="toptitle">                 
+                    <h1><font face="Arial"> Qianyu Zhou </font></h1>  <h1><font face="楷体"> 周千寓 </font></h1>
+                </div>
 
-				<h3><font face="Arial"> Ph.D </font></h3>
-				<p><font face="Arial"> 
-					<a href="https://dmcv.sjtu.edu.cn/" target="_blank"> Digital Media & Computer Vision (DMCV) Laboratory </a>  <br>
-					<a href="https://www.cs.sjtu.edu.cn/en/" target="_blank"> Department of Computer Science and Engineering</a> <br>
-					<a href="https://en.sjtu.edu.cn/" target="_blank"> Shanghai Jiao Tong University</a> <br>
-					Shanghai, China <br>
-					<br>
-					Email: <a href="mailto:zhouqianyu@sjtu.edu.cn">zhouqianyu@sjtu.edu.cn</a> 
+                <h3><font face="Arial"> Ph.D </font></h3>
+                <p><font face="Arial"> 
+                    <a href="https://dmcv.sjtu.edu.cn/" target="_blank"> Digital Media & Computer Vision (DMCV) Laboratory </a>  <br>
+                    <a href="https://www.cs.sjtu.edu.cn/en/" target="_blank"> Department of Computer Science and Engineering</a> <br>
+                    <a href="https://en.sjtu.edu.cn/" target="_blank"> Shanghai Jiao Tong University</a> <br>
+                    Shanghai, China <br>
+                    <br>
+                    Email: <a href="mailto:zhouqianyu@sjtu.edu.cn">zhouqianyu@sjtu.edu.cn</a> 
                     <span style="margin-right: 20px;"></span>
                     <a href="https://scholar.google.com/citations?hl=en&pli=1&user=KHg04fkAAAAJ">Google Scholar</a>
                     <span style="margin-right: 20px;"></span>
@@ -96,13 +79,13 @@
                     <span style="margin-right: 20px;"></span>
                     <a href="https://orcid.org/0000-0002-5331-050X">ORCID</a>
                     <br>
-				</font></p>
-			</td>
-			<td>
-				<img src="qianyu_1cun.jpg" border="0" width="160"><br>
-			</td>
-		</tr><tr>
-	</tr></tbody>
+                </font></p>
+            </td>
+            <td>
+                <img src="qianyu_1cun.jpg" border="0" width="160"><br>
+            </td>
+        </tr><tr>
+    </tr></tbody>
 </table>
  
 <div id="biography">
@@ -137,7 +120,7 @@ I have published 20+ papers at top-tier journals and conferences (1000+ citation
 My research interest lies at the intersection of computer vision and machine learning.
 Currently, I am working on (i) open-world perception and adaptation, (ii) out-of-domain generalization, and (iii) graph reasoning for vision tasks.
 </font></p> -->
-	
+    
 <!--<font color="red">Currently, I am working on domain generalization for semantic segmentation and object detection. I am looking for undergraduate or master students to engage in ongoing research papers. Don't hesitate to email me if you are interested.</font> <br><br>-->
 
 
@@ -205,7 +188,7 @@ Currently, I am working on (i) open-world perception and adaptation, (ii) out-of
     <li> <p style="margin-left: 10px; line-height: 150%; margin-top: -6px; margin-bottom: -6px;">    
         [01/2023] One paper is accepted to TPAMI (9% acceptance rate, IF=23.6). </p></li>
     <li> <p style="margin-left: 10px; line-height: 150%; margin-top: -6px; margin-bottom: -6px;">    
-        [11/2022] One paper is accepted to TPAMI (9% acceptance rate, IF=23.6). </p></li>	
+        [11/2022] One paper is accepted to TPAMI (9% acceptance rate, IF=23.6). </p></li>   
 <!--     <li> <p style="margin-left: 10px; line-height: 150%; margin-top: -6px; margin-bottom: -6px;">    
         [11/2022] I am invited to serve as a reviewer for CVPR 2023. </p></li> -->
     <li> <p style="margin-left: 10px; line-height: 150%; margin-top: -6px; margin-bottom: -6px;">    
@@ -227,170 +210,79 @@ Currently, I am working on (i) open-world perception and adaptation, (ii) out-of
 </ul>
 </div>
 
+<h2><font face="Arial"> Preprints </font></h2>
+<div id="preprint">
+<ul>
 
-<h2><font face="Arial"> Preprints </font>
-    (<a href="" id="select0" onclick="showPubs(0); return false;">show selected</a> /
-     <a href="" id="select1" onclick="showPubs(1); return false;">show all</a>)
-</h2>
-    <div id="preprint">
-        <script id="pubs_selected">
-            <ul>
-                <li class="paper">
-                    <div class="pimg" style="float:left;margin-bottom:10px;padding-left:3px;border-bottom:solid 1px #EEE;box-shadow:0 0px 2px;">
-                        <img src="imgs/fig_dtcs_arxiv_24.png" width="200">
-                    </div>
-                    <div class="ptitle" style="padding:1px;margin-left:215px;">
-                        Diverse Target and Contribution Scheduling for Domain Generalization
-                    </div>
-                    <div class="pauthors" style="padding:1px;margin-left:215px;">
-                        Shaocong Long*, <b>Qianyu Zhou*</b>, Chenhao Ying, Lizhuang Ma, Yuan Luo.
-                    </div>
-                    <div class="pvenue" style="padding:1px;margin-left:215px;">
-                        ArXiv preprint arXiv:2309.16460.
-                        <p>
-                            [<a href="https://arxiv.org/pdf/2309.16460.pdf">paper</a>]
-                            [<a href="https://arxiv.org/pdf/2309.16460.pdf">arxiv</a>]
-                            [<a href="https://github.com/longshaocong/DTCS">code</a>]
-                            [<a href="bibs/Arxiv_2024_DTCS.txt">bib</a>]
-                        </p>
-                    </div>
-                </li>
-                <li class="paper">
-                    <div class="pimg" style="float:left;margin-bottom:10px;padding-left:3px;border-bottom:solid 1px #EEE;box-shadow:0 0px 2px;">
-                        <img src="imgs/fig_susam_arxiv_24.png" width="200">
-                    </div>
-                    <div class="ptitle" style="padding:1px;margin-left:215px;">
-                        SU-SAM: A Simple Unified Framework for Adapting Segment Anything Model in Underperformed Scenes
-                    </div>
-                    <div class="pauthors" style="padding:1px;margin-left:215px;">
-                        Yiran Song*, <b>Qianyu Zhou*</b>, Xuequan Lu, Zhiwen Shao, Lizhuang Ma.
-                    </div>
-                    <div class="pvenue" style="padding:1px;margin-left:215px;">
-                        ArXiv preprint arXiv:2401.17803.
-                        <p>
-                            [<a href="https://arxiv.org/pdf/2401.17803.pdf">paper</a>]
-                            [<a href="https://arxiv.org/pdf/2401.17803.pdf">arxiv</a>]
-                            [<a href="https://github.com/zongzi13545329/SimAda">code</a>]
-                            [<a href="bibs/Arxiv_2024_SimAda.txt">bib</a>]
-                        </p>
-                    </div>
-                </li>
-                <li class="paper">
-                    <div class="pimg" style="float:left;margin-bottom:10px;padding-left:3px;border-bottom:solid 1px #EEE;box-shadow:0 0px 2px;">
-                        <img src="imgs/fig_sdb_arxiv_24.png" width="200">
-                    </div>
-                    <div class="ptitle" style="padding:1px;margin-left:215px;">
-                        Adversarial Attacks on Both Face Recognition and Face Anti-spoofing Models
-                    </div>
-                    <div class="pauthors" style="padding:1px;margin-left:215px;">
-                        Fengfan Zhou, <b>Qianyu Zhou</b>, Xiangtai Li, Xuequan Lu, Lizhuang Ma, Hefei Ling.
-                    </div>
-                    <div class="pvenue" style="padding:1px;margin-left:215px;">
-                        ArXiv preprint arXiv:2405.16940.
-                        <p>
-                            [<a href="https://arxiv.org/pdf/2405.16940.pdf">paper</a>]
-                            [<a href="https://arxiv.org/pdf/2405.16940.pdf">arxiv</a>]
-                            [<a href="bibs/Arxiv_2024_SDB.txt">bib</a>]
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </script>
-        <script id="pubs_by_topic">
-            <ul>
-                <li class="paper">
-                    <div class="ptitle">
-                        Diverse Target and Contribution Scheduling for Domain Generalization
-                    </div>
-                    <div class="pauthors">
-                        Shaocong Long*, <b>Qianyu Zhou*</b>, Chenhao Ying, Lizhuang Ma, Yuan Luo.
-                    </div>
-                    <div class="pvenue">
-                        ArXiv preprint arXiv:2309.16460.
-                        <p>
-                            [<a href="https://arxiv.org/pdf/2309.16460.pdf">paper</a>]
-                            [<a href="https://arxiv.org/pdf/2309.16460.pdf">arxiv</a>]
-                            [<a href="https://github.com/longshaocong/DTCS">code</a>]
-                            [<a href="bibs/Arxiv_2024_DTCS.txt">bib</a>]
-                        </p>
-                    </div>
-                </li>
-                <li class="paper">
-                    <div class="ptitle">
-                        SU-SAM: A Simple Unified Framework for Adapting Segment Anything Model in Underperformed Scenes
-                    </div>
-                    <div class="pauthors">
-                        Yiran Song*, <b>Qianyu Zhou*</b>, Xuequan Lu, Zhiwen Shao, Lizhuang Ma.
-                    </div>
-                    <div class="pvenue">
-                        ArXiv preprint arXiv:2401.17803.
-                        <p>
-                            [<a href="https://arxiv.org/pdf/2401.17803.pdf">paper</a>]
-                            [<a href="https://arxiv.org/pdf/2401.17803.pdf">arxiv</a>]
-                            [<a href="https://github.com/zongzi13545329/SimAda">code</a>]
-                            [<a href="bibs/Arxiv_2024_SimAda.txt">bib</a>]
-                        </p>
-                    </div>
-                </li>
-                <li class="paper">
-                    <div class="ptitle">
-                        Adversarial Attacks on Both Face Recognition and Face Anti-spoofing Models
-                    </div>
-                    <div class="pauthors">
-                        Fengfan Zhou, <b>Qianyu Zhou</b>, Xiangtai Li, Xuequan Lu, Lizhuang Ma, Hefei Ling.
-                    </div>
-                    <div class="pvenue">
-                        ArXiv preprint arXiv:2405.16940.
-                        <p>
-                            [<a href="https://arxiv.org/pdf/2405.16940.pdf">paper</a>]
-                            [<a href="https://arxiv.org/pdf/2405.16940.pdf">arxiv</a>]
-                            [<a href="bibs/Arxiv_2024_SDB.txt">bib</a>]
-                        </p>
-                    </div>
-                </li>
-                <li class="paper">
-                    <div class="ptitle">
-                        Enhancing the Transferability of Adversarial Attacks on Face Recognition with Diverse Parameters Augmentation
-                    </div>
-                    <div class="pauthors">
-                        Fengfan Zhou, Bangjie Yin, Hefei Ling, <b>Qianyu Zhou</b>, Wenxuan Wang.
-                    </div>
-                    <div class="pvenue">
-                        ArXiv preprint arXiv:2411.15555.
-                        <p>
-                            [<a href="https://arxiv.org/pdf/2411.15555.pdf">paper</a>]
-                            [<a href="https://arxiv.org/pdf/2411.15555.pdf">arxiv</a>]
-                            [<a href="bibs/Arxiv_2024_DPA.txt">bib</a>]
-                        </p>
-                    </div>
-                </li>
-                <li class="paper">
-                    <div class="ptitle">
-                        Diffusion Implicit Policy for Unpaired Scene-aware Motion Synthesis
-                    </div>
-                    <div class="pauthors">
-                        Jingyu Gong, Chong Zhang, Fengqi Liu, Ke Fan, <b>Qianyu Zhou</b>, Xin Tan, Zhizhong Zhang, Yuan Xie, Lizhuang Ma.
-                    </div>
-                    <div class="pvenue">
-                        ArXiv preprint arXiv:2412.02261.
-                        <p>
-                            [<a href="https://arxiv.org/pdf/2412.02261.pdf">paper</a>]
-                            [<a href="https://arxiv.org/pdf/2412.02261.pdf">arxiv</a>]
-                            [<a href="bibs/Arxiv_2024_DIP.txt">bib</a>]
-                            [<a href="https://jingyugong.github.io/DiffusionImplicitPolicy/">code</a>]
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </script>
+    <div class="paper" style="clear:left;">
+      <div class="pimg" style="float:left;margin-bottom:10px;padding-left:3px;border-bottom:solid 1px #EEE;box-shadow:0 0px 2px"><font face="Arial" size="3">
+          <img src="imgs/fig_dtcs_arxiv_24.png" width="200" >
+      </div>
+      <div class="ptitle" style="padding:1px;margin-left:215px;">
+          Diverse Target and Contribution Scheduling for Domain Generalization
+      </div>
+      <div class="pauthors" style="padding:1px;margin-left:215px;">
+          Shaocong Long*, <b>Qianyu Zhou*</b>, Chenhao Ying, Lizhuang Ma, Yuan Luo. 
+      </div>
+      <div class="pvenue" style="padding:1px;margin-left:215px;">
+          ArXiv preprint arXiv:2309.16460.
+          <p>
+            [<a href="https://arxiv.org/pdf/2309.16460.pdf">paper</a>]
+            [<a href="https://arxiv.org/pdf/2309.16460.pdf">arxiv</a>]
+            [<a href="https://github.com/longshaocong/DTCS">code</a>]
+            [<a href="bibs/Arxiv_2024_DTCS.txt">bib</a>]  
+          </p>
+      </div>
     </div>
 
+    <div class="paper" style="clear:left;">
+      <div class="pimg" style="float:left;margin-bottom:10px;padding-left:3px;border-bottom:solid 1px #EEE;box-shadow:0 0px 2px"><font face="Arial" size="3">
+          <img src="imgs/fig_susam_arxiv_24.png" width="200" >
+      </div>
+      <div class="ptitle" style="padding:1px;margin-left:215px;">
+          SU-SAM: A Simple Unified Framework for Adapting Segment Anything Model in Underperformed Scenes
+      </div>
+      <div class="pauthors" style="padding:1px;margin-left:215px;">
+          Yiran Song*, <b>Qianyu Zhou*</b>, Xuequan Lu, Zhiwen Shao, Lizhuang Ma. 
+      </div>
+      <div class="pvenue" style="padding:1px;margin-left:215px;">
+          ArXiv preprint arXiv:2401.17803.
+          <p>
+            [<a href="https://arxiv.org/pdf/2401.17803.pdf">paper</a>]
+            [<a href="https://arxiv.org/pdf/2401.17803.pdf">arxiv</a>]
+            [<a href="https://github.com/zongzi13545329/SimAda">code</a>] 
+            [<a href="bibs/Arxiv_2024_SimAda.txt">bib</a>] 
+          </p>
+      </div>
+    </div>
 
+    <div class="paper" style="clear:left;">
+      <div class="pimg" style="float:left;margin-bottom:10px;padding-left:3px;border-bottom:solid 1px #EEE;box-shadow:0 0px 2px"><font face="Arial" size="3">
+          <img src="imgs/fig_sdb_arxiv_24.png" width="200" >
+      </div>
+      <div class="ptitle" style="padding:1px;margin-left:215px;">
+          Adversarial Attacks on Both Face Recognition and Face Anti-spoofing Models
+      </div>
+      <div class="pauthors" style="padding:1px;margin-left:215px;">
+          Fengfan Zhou, <b>Qianyu Zhou</b>, Xiangtai Li, Xuequan Lu, Lizhuang Ma, Hefei Ling. 
+      </div>
+      <div class="pvenue" style="padding:1px;margin-left:215px;">
+          ArXiv preprint arXiv:2405.16940.
+          <p>
+            [<a href="https://arxiv.org/pdf/2405.16940">paper</a>]
+            [<a href="https://arxiv.org/pdf/2405.16940">arxiv</a>]
+            [<a href="bibs/Arxiv_2024_SDB.txt">bib</a>]
+          </p>
+      </div>
+    </div>
+
+</ul>
+</div>
 
 <p id="publications">
 <h2><font face="Arial"> Publications
-    (<a href="" id="select2" onclick="showPubs(2); return false;">show selected</a> /
-     <a href="" id="select3" onclick="showPubs(3); return false;">show all</a>)
+    (<a href="" id="select0" onclick="showPubs(0); return false;">show selected</a> /
+     <a href="" id="select1" onclick="showPubs(1); return false;">show all</a>)
 </h2>
 </p>
 <!-- <div id="publication">
@@ -402,7 +294,7 @@ Currently, I am working on (i) open-world perception and adaptation, (ii) out-of
 <!-- Summary(18): TPAMI x2, CVPR x3, ICCV x1, ECCV x2, ACM MM x4, AAAI x1, TCSVT/PR x3, others x2
  -->
 <div id="pubs"></div>
-<script id="pubs_selected">	
+<script id="pubs_selected"> 
 Summary(21): TPAMI(2), CVPR/ICCV/ECCV(3/1/2), NeurIPS(1), ACM MM(4), AAAI(3), TCSVT/PR(3), others(2);</p>
 <ul>
     <div class="paper" style="clear:left;">
@@ -1079,6 +971,60 @@ Summary(33): TPAMI(2), CVPR/ICCV/ECCV(3/1/3), NeurIPS(2), ACM MM(5), AAAI(4), TV
         </font>
         </p> </li>
 
+
+       <li> <p style="margin-left: 0px; line-height: 150%; margin-top: 10px; margin-bottom: 10px;"><font face="Arial" size="3"><meta charset="utf-8">
+            Diverse Target and Contribution Scheduling for Domain Generalization <br> 
+         <i>   Shaocong Long*, <b>Qianyu Zhou*</b>, Chenhao Ying, Lizhuang Ma, Yuan Luo. </i><br>
+         ArXiv preprint arXiv:2309.16460. <br>
+        [<a href="https://arxiv.org/pdf/2309.16460.pdf">paper</a>]
+        [<a href="https://arxiv.org/pdf/2309.16460.pdf">arxiv</a>]
+        [<a href="https://github.com/longshaocong/DTCS">code</a>]
+        [<a href="bibs/Arxiv_2024_DTCS.txt">bib</a>]     
+        </font>
+        </p> </li>
+
+        <li> <p style="margin-left: 0px; line-height: 150%; margin-top: 10px; margin-bottom: 10px;"><font face="Arial" size="3"><meta charset="utf-8">
+            SU-SAM: A Simple Unified Framework for Adapting Segment Anything Model in Underperformed Scenes <br> 
+         <i>   Yiran Song*, <b>Qianyu Zhou*</b>, Xuequan Lu, Zhiwen Shao, Lizhuang Ma. </i><br>
+         ArXiv preprint arXiv:2401.17803. <br>
+        [<a href="https://arxiv.org/pdf/2401.17803.pdf">paper</a>]
+        [<a href="https://arxiv.org/pdf/2401.17803.pdf.pdf">arxiv</a>]
+        [<a href="https://github.com/zongzi13545329/SimAda">code</a>] 
+        [<a href="bibs/Arxiv_2024_SimAda.txt">bib</a>]
+        </font>
+        </p> </li>
+
+        <li> <p style="margin-left: 0px; line-height: 150%; margin-top: 10px; margin-bottom: 10px;"><font face="Arial" size="3"><meta charset="utf-8">
+            Adversarial Attacks on Both Face Recognition and Face Anti-spoofing Models <br> 
+         <i>   Fengfan Zhou, <b>Qianyu Zhou</b>, Xiangtai Li, Xuequan Lu, Lizhuang Ma, Hefei Ling. </i><br>
+         ArXiv preprint arXiv:2405.16940. <br>
+        [<a href="https://arxiv.org/pdf/2405.16940">paper</a>]
+        [<a href="https://arxiv.org/pdf/2405.16940">arxiv</a>]
+        [<a href="bibs/Arxiv_2024_SDB.txt">bib</a>]
+        </font>
+        </p> </li>
+
+        <li> <p style="margin-left: 0px; line-height: 150%; margin-top: 10px; margin-bottom: 10px;"><font face="Arial" size="3"><meta charset="utf-8">
+            Enhancing the Transferability of Adversarial Attacks on Face Recognition with Diverse Parameters Augmentation <br> 
+         <i>   Fengfan Zhou, Bangjie Yin, Hefei Ling, <b>Qianyu Zhou</b>, Wenxuan Wang. </i><br>
+         ArXiv preprint arXiv:2411.15555. <br>
+        [<a href="https://arxiv.org/pdf/2411.15555">paper</a>]
+        [<a href="https://arxiv.org/pdf/2411.15555">arxiv</a>]
+        [<a href="bibs/Arxiv_2024_DPA.txt">bib</a>]
+        </font>
+        </p> </li>
+
+        <li> <p style="margin-left: 0px; line-height: 150%; margin-top: 10px; margin-bottom: 10px;"><font face="Arial" size="3"><meta charset="utf-8">
+            Diffusion Implicit Policy for Unpaired Scene-aware Motion Synthesis <br> 
+         <i>   Jingyu Gong, Chong Zhang, Fengqi Liu, Ke Fan, <b>Qianyu Zhou</b>, Xin Tan, Zhizhong Zhang, Yuan Xie, Lizhuang Ma. </i><br>
+         ArXiv preprint arXiv:2412.02261. <br>
+        [<a href="https://arxiv.org/pdf/2412.02261">paper</a>]
+        [<a href="https://arxiv.org/pdf/2412.02261">arxiv</a>]
+        [<a href="bibs/Arxiv_2024_DIP.txt">bib</a>]
+        [<a href="https://jingyugong.github.io/DiffusionImplicitPolicy/">code</a>] 
+        </font>
+        </p> </li>
+
 </ul> 
 <h3>2023:</h3>    
 <ul>
@@ -1358,7 +1304,7 @@ Summary(33): TPAMI(2), CVPR/ICCV/ECCV(3/1/3), NeurIPS(2), ACM MM(5), AAAI(4), TV
         <li> <p style="margin-left: 10px; line-height: 150%; margin-top: -6px; margin-bottom: -6px;">
             ACM International Conference on Multimedia (ACM MM), 2024 </p></li>
 
-	 <li> <p style="margin-left: 0px; line-height: 150%; margin-top: 8px; margin-bottom: 8px;"><font face="Arial" size="3"><meta charset="utf-8">
+     <li> <p style="margin-left: 0px; line-height: 150%; margin-top: 8px; margin-bottom: 8px;"><font face="Arial" size="3"><meta charset="utf-8">
          <strong> Journal Reviewer </strong> <br> </font> </p> 
     <li> <p style="margin-left: 10px; line-height: 150%; margin-top: -6px; margin-bottom: -6px; color: black">
         <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34" style="color: black;">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) </a> </p></li>
@@ -1377,7 +1323,7 @@ Summary(33): TPAMI(2), CVPR/ICCV/ECCV(3/1/3), NeurIPS(2), ACM MM(5), AAAI(4), TV
     <li> <p style="margin-left: 10px; line-height: 150%; margin-top: -6px; margin-bottom: -6px;">
         <a href="https://www.sciencedirect.com/journal/neurocomputing/" style="color: black;">Neurocomputing </a> </p>
     </li>
-	 <li> <p style="margin-left: 0px; line-height: 150%; margin-top: 8px; margin-bottom: 8px;"><font face="Arial" size="3"><meta charset="utf-8">
+     <li> <p style="margin-left: 0px; line-height: 150%; margin-top: 8px; margin-bottom: 8px;"><font face="Arial" size="3"><meta charset="utf-8">
          <strong> Conference Reviewer </strong> <br> </font> </p> 
     <li> <p style="margin-left: 10px; line-height: 150%; margin-top: -6px; margin-bottom: -6px;">
         IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022 - 2024 </p></li>
@@ -1451,11 +1397,11 @@ Summary(33): TPAMI(2), CVPR/ICCV/ECCV(3/1/3), NeurIPS(2), ACM MM(5), AAAI(4), TV
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" integrity="sha3848gBf6Y4YYq7Jx97PIqmTwLPin4hxIzQw5aDmUg/DDhul9fFpbbLcLh3nTIIDJKhx" crossorigin="anonymous"></script>
 <script src="script.js"></script><table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody> 
 <div id="footer">
-	<div id="footer-text"></div>
+    <div id="footer-text"></div>
 </div>
-	<p></p><center>
+    <p></p><center>
         <br>
-            © Qianyu Zhou | Last updated: 05/2024
+            © Qianyu Zhou | Last updated: 12/2024
         </center><p></p>
 
 </b></b></b></div><b><b><b>
@@ -1464,4 +1410,3 @@ Summary(33): TPAMI(2), CVPR/ICCV/ECCV(3/1/3), NeurIPS(2), ACM MM(5), AAAI(4), TV
 <!-- {% include analytics.html %}
  -->
 </html>
-
