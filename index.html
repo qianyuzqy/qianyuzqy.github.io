@@ -35,6 +35,23 @@
 }
 
 </script>
+
+
+<script>
+   function showPubs(id) {
+  if (id == 0) {
+    document.getElementById('pubs').innerHTML = document.getElementById('pubs_selected').innerHTML;
+    document.getElementById('select2').style = 'text-decoration:underline;color:#000000';
+    document.getElementById('select3').style = '';
+  } else {
+    document.getElementById('pubs').innerHTML = document.getElementById('pubs_by_topic').innerHTML;
+    document.getElementById('select2').style = 'text-decoration:underline;color:#000000';
+    document.getElementById('select3').style = '';
+  }
+}
+
+</script>
+
 </head>
 <body>
 
