@@ -1,6 +1,6 @@
 @article{wu2024motionbooth,
   title={MotionBooth: Motion-Aware Customized Text-to-Video Generation},
   author={Wu, Jianzong and Li, Xiangtai and Zeng, Yanhong and Zhang, Jiangning and Zhou, Qianyu and Li, Yining and Tong, Yunhai and Chen, Kai},
-  journal={arXiv preprint arXiv:2406.17758},
+  journal={Advances in Neural Information Processing Systems (NeurIPS)},
   year={2024}
 }

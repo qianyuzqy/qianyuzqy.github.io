@@ -1,0 +1,6 @@
+@inproceedings{b71,
+  title={DiffuseFIST: A Fast Image-guided Style Transfer Method for Adapting Large-scale Diffusion Models},
+  author={Dai, Miaomiao and Zhou, Qianyu and Yi, Ran and Ma, Lizhuang},
+   booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year={2025}
+}

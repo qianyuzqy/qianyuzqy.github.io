@@ -1,0 +1,6 @@
+@article{yang2024pointdgmamba,
+  title={PointDGMamba: Domain Generalization of Point Cloud Classification via Generalized State Space Model}, 
+  author={Yang, Hao and Zhou, Qianyu and Sun, Haijia and Li, Xiangtai and Liu, Fengqi and Lu, Xuequan and Ma, Lizhuang and Yan, Shuicheng},
+  journal={AAAI Conference on Artificial Intelligence},
+  year={2025}
+}

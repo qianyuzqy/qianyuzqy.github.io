@@ -1,0 +1,6 @@
+@article{jiang2024pcotta,
+  title={PCoTTA: Continual Test-Time Adaptation for Multi-Task Point Cloud Understanding},
+  author={Jiang, Jincen and Zhou, Qianyu and Li, Yuhang and Zhao, Xinkui and Wang, Meili and Ma, Lizhuang and Chang, Jian and Zhang, Jian Jun and Lu, Xuequan},
+  journal={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2024}
+}
