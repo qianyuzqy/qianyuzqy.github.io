@@ -1,0 +1,6 @@
+@article{zhou2025they,
+  title={Are They the Same? Exploring Visual Correspondence Shortcomings of Multimodal LLMs},
+  author={Zhou, Yikang and Zhang, Tao and Xu, Shilin and Chen, Shihao and Zhou, Qianyu and Tong, Yunhai and Ji, Shunping and Zhang, Jiangning and Li, Xiangtai and Qi, Lu},
+  journal={arXiv preprint arXiv:2501.04670},
+  year={2025}
+}
