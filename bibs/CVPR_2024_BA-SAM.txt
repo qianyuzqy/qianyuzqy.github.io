@@ -2,5 +2,6 @@
   title={BA-SAM: Scalable Bias-Mode Attention Mask for Segment Anything Model},
   author={Song, Yiran and Zhou, Qianyu and Li, Xiangtai and Fan, Deng-Ping and Lu, Xuequan and Ma, Lizhuang},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={3162--3173},
   year={2024}
 }

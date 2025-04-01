@@ -1,0 +1,8 @@
+@inproceedings{song2025susam,
+  title={SU-SAM: A Simple Unified Framework for Adapting Segment Anything Model in Underperformed Scenes},
+  author={Song, Yiran and Zhou, Qianyu and Lu, Xuequan and Shao, Zhiwen and Ma, Lizhuang},
+  booktitle={IEEE International Conference on Multimedia and Expo (ICME)},
+  pages={01--06},
+  year={2025},
+  organization={IEEE}
+}
