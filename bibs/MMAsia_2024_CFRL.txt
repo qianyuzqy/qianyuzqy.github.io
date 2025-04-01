@@ -1,0 +1,7 @@
+@inproceedings{song2024cfrl,
+  title={CFRL: Coarse-Fine Decoupled Representation Learning For Long-Tailed Recognition},
+  author={Song, Yiran and Zhou, Qianyu and Hu, Kun and Ma, Lizhuang and Lu, Xuequan},
+  booktitle={Proceedings of the 6th ACM International Conference on Multimedia in Asia (MMAsia)},
+  pages={1--7},
+  year={2024}
+}

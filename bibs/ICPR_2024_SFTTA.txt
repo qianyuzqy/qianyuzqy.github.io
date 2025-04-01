@@ -1,6 +1,8 @@
-@article{song2024source,
+@inproceedings{song2025source,
   title={Source-Free Test-Time Adaptation For Online Surface-Defect Detection},
   author={Song, Yiran and Zhou, Qianyu and Ma, Lizhuang},
-  journal={arXiv preprint arXiv:2408.09494},
-  year={2024}
+  booktitle={International Conference on Pattern Recognition},
+  pages={192--207},
+  year={2025},
+  organization={Springer}
 }
