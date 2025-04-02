@@ -1,0 +1,8 @@
+@inproceedings{dai2025stylerwkv,
+  title={StyleRWKV: High-Quality and High-Efficiency Style Transfer with RWKV-like Architecture},
+  author={Dai, Miaomiao and Zhou, Qianyu and Ma, Lizhuang},
+  booktitle={IEEE International Conference on Multimedia and Expo (ICME)},
+  pages={01--06},
+  year={2025},
+  organization={IEEE}
+}
