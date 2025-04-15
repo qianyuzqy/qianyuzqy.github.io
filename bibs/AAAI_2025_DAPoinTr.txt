@@ -1,6 +1,7 @@
-@article{li2024dapointr,
+@inproceedings{li2025dapointr,
   title={DAPoinTr: Domain Adaptive Point Transformer for Point Cloud Completion},
   author={Li, Yinghui and Zhou, Qianyu and Gong, Jingyu and Zhu, Ye and Dazeley, Richard and Zhao, Xinkui and Lu, Xuequan},
-  journal={AAAI Conference on Artificial Intelligence},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+  pages={5066--5074},
   year={2025}
 }

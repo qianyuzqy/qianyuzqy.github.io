@@ -1,6 +1,7 @@
-@article{zhang2024point,
-  title={Point could mamba: Point cloud learning via state space model},
+@inproceedings{zhang2025point,
+  title={Point Could Mamba: Point Cloud Learning via State Space Model},
   author={Zhang, Tao and Yuan, Haobo and Qi, Lu and Zhang, Jiangning and Zhou, Qianyu and Ji, Shunping and Yan, Shuicheng and Li, Xiangtai},
-  journal={AAAI Conference on Artificial Intelligence},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+  pages={10121--10130},
   year={2025}
 }
