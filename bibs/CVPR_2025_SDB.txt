@@ -1,0 +1,8 @@
+@InProceedings{zhou2025adv,
+    author    = {Zhou, Fengfan and Yin, Bangjie and Ling, Hefei and Zhou, Qianyu and Wang, Wenxuan},
+    title     = {Improving the Transferability of Adversarial Attacks on Face Recognition with Diverse Parameters Augmentation},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {3516-3527}
+}
